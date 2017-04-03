@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dotaimages</title>
+</head>
+<body>
+    <h1>doto</h1>
+    <!-- unordered list -->
+
+    <ul>
+        {% for item in images %}
+            <li>
+                <img src="{{ item["src"] }}" alt="{{ item["title"] }}" width="100">
+                <p>{{ item["title"] }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

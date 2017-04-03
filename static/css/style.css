@@ -1,0 +1,50 @@
+div {
+    color: red;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: Jaden;
+    font-weight: lighter;
+    text-decoration: underline;
+    width: 200px;
+    margin: auto;
+}
+
+/*Khởi tạo các class sau dấu chấm*/
+.red_css {
+    color: red;
+}
+
+.blue_css {
+    color: blue;
+}
+
+.yellow_background{
+    background: yellow;
+}
+
+.title:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a{
+    color: deepskyblue;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+a:active,
+a:hover{
+    color: deeppink;
+    font-size: 80px;
+}
+
+h1{
+    display: inline-block;
+    background: url('https://s-media-cache-ak0.pinimg.com/736x/d5/c8/8a/d5c88afdd30e8aec38224cbbf8b392d7.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 50px;
+}
